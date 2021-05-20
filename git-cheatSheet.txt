@@ -1,0 +1,30 @@
+// Flags
+	commit title: -m
+	commit all unstaged: -a
+
+// Initialize git project
+	git init
+
+// State of project
+	git status
+
+// Get files from GitHub
+	git clone
+
+// Add all files (dot)
+	git add .
+
+// see if existing SSH keys are present:
+	ls -al ~/.ssh
+
+
+// Generating a new SSH key:
+	ssh-keygen -t ed25519 -C "your_email@example.com"
+
+
+// start the ssh-agent in the background:
+	eval `ssh-agent -s`
+
+
+// Add your SSH private key to the ssh-agent:
+	ssh-add ~/.ssh/id_ed25519

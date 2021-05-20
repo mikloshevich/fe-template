@@ -1,0 +1,6 @@
+browser-sync init
+
+browser-sync start --server --files "./**/*.*" --no-notify
+
+
+browser-sync start --proxy 'localhost/php-1' --files "./**/*.*" --no-notify
